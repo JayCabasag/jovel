@@ -171,38 +171,113 @@ export default function Home() {
         <h2 className="section-title">Selected Work</h2>
         <div className="projects-grid">
           <div className="project-card">
-            <div className="project-number">01</div>
-            <h3 className="project-title">E-Commerce Platform</h3>
-            <p className="project-description">
-              A modern, scalable e-commerce solution built with React and
-              Node.js, featuring real-time inventory management and seamless
-              checkout experience.
-            </p>
-            <a href="#" className="project-link">
-              View Project
-            </a>
+            <div className="project-image">
+              <img
+                src="/images/work1.webp"
+                alt="Brand Identity & Logo Design"
+              />
+            </div>
+            <div className="project-content">
+              <div className="project-number">01</div>
+              <h3 className="project-title">Brand Identity & Logo Design</h3>
+              <p className="project-description">
+                Complete brand identity package including logo design, color
+                palette, typography system, and brand guidelines for a premium
+                wellness company.
+              </p>
+              <a href="//www.pornhub.com" className="project-link">
+                View Project
+              </a>
+            </div>
           </div>
           <div className="project-card">
-            <div className="project-number">02</div>
-            <h3 className="project-title">Brand Identity System</h3>
-            <p className="project-description">
-              Comprehensive design system including visual identity, typography,
-              and component library for a growing tech startup.
-            </p>
-            <a href="#" className="project-link">
-              View Project
-            </a>
+            <div className="project-image">
+              <img src="/images/work2.jpg" alt="Social Media Campaign" />
+            </div>
+            <div className="project-content">
+              <div className="project-number">02</div>
+              <h3 className="project-title">Social Media Campaign</h3>
+              <p className="project-description">
+                Creative visual content and graphics for a 3-month social media
+                campaign, featuring custom illustrations, templates, and
+                cohesive brand storytelling.
+              </p>
+              <a href="//www.pornhub.com" className="project-link">
+                View Project
+              </a>
+            </div>
           </div>
           <div className="project-card">
-            <div className="project-number">03</div>
-            <h3 className="project-title">Mobile App Design</h3>
-            <p className="project-description">
-              iOS and Android app design focused on intuitive navigation and
-              delightful user interactions for a health and wellness platform.
-            </p>
-            <a href="#" className="project-link">
-              View Project
-            </a>
+            <div className="project-image">
+              <img src="/images/work2.jpg" alt="Packaging Design" />
+            </div>
+            <div className="project-content">
+              <div className="project-number">03</div>
+              <h3 className="project-title">Packaging Design</h3>
+              <p className="project-description">
+                Modern packaging design for an organic skincare line, combining
+                minimalist aesthetics with eco-friendly materials and print
+                production.
+              </p>
+              <a href="//www.pornhub.com" className="project-link">
+                View Project
+              </a>
+            </div>
+          </div>
+          <div className="project-card">
+            <div className="project-image">
+              <img src="/images/work2.jpg" alt="Editorial & Print Design" />
+            </div>
+            <div className="project-content">
+              <div className="project-number">04</div>
+              <h3 className="project-title">Editorial & Print Design</h3>
+              <p className="project-description">
+                Magazine layouts, posters, and print collateral featuring bold
+                typography, creative compositions, and attention to detail in
+                every spread.
+              </p>
+              <a href="//www.pornhub.com" className="project-link">
+                View Project
+              </a>
+            </div>
+          </div>
+          <div className="project-card">
+            <div className="project-image">
+              <img src="/images/work2.jpg" alt="Digital Illustrations" />
+            </div>
+            <div className="project-content">
+              <div className="project-number">05</div>
+              <h3 className="project-title">Digital Illustrations</h3>
+              <p className="project-description">
+                Custom digital artwork and illustrations for web, mobile apps,
+                and marketing materials, showcasing versatile artistic styles
+                and creative concepts.
+              </p>
+              <a href="//www.pornhub.com" className="project-link">
+                View Project
+              </a>
+            </div>
+          </div>
+          <div className="project-card">
+            <div className="project-image">
+              <img src="/images/work2.jpg" alt="UI/UX Visual Design" />
+            </div>
+            <div className="project-content">
+              <div className="project-number">06</div>
+              <h3 className="project-title">UI/UX Visual Design</h3>
+              <p className="project-description">
+                Interface design and visual systems for mobile and web
+                applications, focusing on beautiful, user-friendly experiences
+                with pixel-perfect execution.
+              </p>
+              <a
+                href="//www.pornhub.com"
+                target="_blank"
+                className="project-link"
+              >
+                View Project
+              </a>
+            </div>
           </div>
         </div>
       </section>
